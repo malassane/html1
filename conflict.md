@@ -1,1 +1,1 @@
-conflict.md
+A j'ai écrit dans la branch A
