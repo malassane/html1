@@ -1,1 +1,3 @@
-A j'ai écrit dans la branch A
+
+B j'ai écrit dans la branche B
+>>>>>>> b_branch
