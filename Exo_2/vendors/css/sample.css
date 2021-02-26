@@ -1,0 +1,88 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    text-align: center;
+    width: 980px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+  }
+  .main-header {
+    padding-bottom: 15%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("../images/header.jpg");
+    background-attachment: fixed;
+    
+  }
+  /* ​ */
+  header {
+    background-color: grey;
+    height: 50px;
+    font-size: 1rem;
+  }
+  header ul {
+  }
+  header ul a {
+      color: aliceblue;
+      padding: 15px;
+      position: relative;
+      top:10px;
+  }
+  header li {
+      list-style: none;
+     
+  }
+  header ul:after {
+      float:left;
+  }
+  .header{
+    margin-top:10px;
+  }
+.header .left  { 
+    float:left;
+    width:auto;
+}
+.header .right  {
+    float:right;
+    width:auto;
+}
+  /* Implémentation de la partie d'en-tête */
+  .main-header img {
+  /* Implémentation de l'image principale (image des caractères blancs "Achieve") */
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+  .about {
+  /* About Implémentation de la partie Achieve */
+
+  }
+  /* ​ */
+  .function {
+    height: 400px;
+    background-color:darkgrey;
+    width:980px;
+    margin-top:50px;
+  }
+  .function-images {
+      display:table;
+  }
+  .function-image {
+      display:table-cell;
+      vertical-align: middle;
+      padding:50px;
+  }
+  /* Implémentation de la partie Function */
+  footer {
+  /* Implémentation du pied de page */
+  background-color:#5A5E6B;
+  height: 100px;
+  width: 980px;
+  position:absolute;
+  bottom: 0;
+  display: table;
+  }
+  /* La description de css écrite ici n'est qu'un modèle préparé comme indice, donc s
