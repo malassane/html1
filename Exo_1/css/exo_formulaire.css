@@ -40,14 +40,18 @@ margin-left:20px;
   margin:0;
   float:left;
 }
-.clearfix:after {
+.clearfix:after{
   content: "";
   display: block;
   clear: both;
 }
 /* Addendum */
+.header li{
+  float:right;
+  width:auto;
+}
 .top_menu li {
-float: left;
+float:left;
 width:auto;
 }
 /* Addendum */
@@ -59,6 +63,7 @@ padding: 0;
 li {
 /* Supprimer le cercle noir en haut de la liste */
 list-style: none;
+
 }
 .top_menu li a {
 color : blue ;
@@ -70,8 +75,8 @@ padding: 15px;
 .top_menu li a:hover {
 text-decoration: underline;
 }
-.top_menu ul{
-float:left;
+.header ul{
+float:right;
 }
 /* ajouter */
 .image_area{
