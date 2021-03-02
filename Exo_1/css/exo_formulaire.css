@@ -66,14 +66,15 @@ list-style: none;
 
 }
 .top_menu li a {
-color : blue ;
+color :#fff ;
 text-decoration: none;
 display: block;
 padding: 15px;
 }
 /* Addendum */
 .top_menu li a:hover {
-text-decoration: underline;
+text-decoration: none;
+
 }
 .header ul{
 float:right;
